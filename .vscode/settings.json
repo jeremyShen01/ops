@@ -1,0 +1,40 @@
+{
+    "apollo.portalUrl": "http://apollo-portal-dev.htx.com",
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "terminal.integrated.env.linux": {
+        "APOLLO_PORTAL_URL": "http://apollo-portal-dev.htx.com"
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/.DS_Store": true
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "explorer.confirmDelete": false,
+    "debug.autoExpandLazyVariables": true,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.cursorStyle": "block",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false
+}
